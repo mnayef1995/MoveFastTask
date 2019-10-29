@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom navigation view -->
+    <string name="title_menu_activity_main_navigation_view_architecture">Architecture</string>
+    <string name="title_menu_activity_main_navigation_view_travel">Travel</string>
+    <string name="title_menu_activity_main_navigation_view_search">Search</string>
+    <string name="title_menu_activity_main_navigation_view_animals">Animals</string>
+    <string name="title_menu_activity_main_navigation_view_nature">Nature</string>
+</resources>

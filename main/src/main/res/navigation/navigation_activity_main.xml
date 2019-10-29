@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_activity_main"
+    app:startDestination="@+id/item_menu_activity_main_bottom_navigation_view_architecture">
+
+    <fragment
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_architecture"
+        android:name="com.movefast.gallery.GalleryFragment"
+        android:label="@string/title_menu_activity_main_navigation_view_architecture">
+
+        <argument
+            android:name="type"
+            android:defaultValue="architecture"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_travel"
+        android:name="com.movefast.gallery.GalleryFragment"
+        android:label="@string/title_menu_activity_main_navigation_view_travel">
+
+        <argument
+            android:name="type"
+            android:defaultValue="travel"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_animals"
+        android:name="com.movefast.gallery.GalleryFragment"
+        android:label="@string/title_menu_activity_main_navigation_view_animals">
+
+        <argument
+            android:name="type"
+            android:defaultValue="animals"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_nature"
+        android:name="com.movefast.gallery.GalleryFragment"
+        android:label="@string/title_menu_activity_main_navigation_view_nature">
+
+        <argument
+            android:name="type"
+            android:defaultValue="nature"
+            app:argType="string" />
+    </fragment>
+</navigation>

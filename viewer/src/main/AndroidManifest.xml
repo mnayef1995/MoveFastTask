@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.movefast.viewer">
+
+    <application>
+
+        <activity
+            android:name=".GalleryViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Viewer" />
+    </application>
+</manifest>

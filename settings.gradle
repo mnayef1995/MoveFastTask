@@ -1,0 +1,8 @@
+rootProject.name = "MoveFast"
+include ':app'
+include ':main'
+include ':data'
+include ':splash'
+include ':core'
+include ':viewer'
+include ':gallery'

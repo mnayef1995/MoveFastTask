@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_architecture"
+        android:icon="@drawable/ic_architecture"
+        android:title="@string/title_menu_activity_main_navigation_view_architecture" />
+
+    <item
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_travel"
+        android:icon="@drawable/ic_travel"
+        android:menuCategory="system"
+        android:title="@string/title_menu_activity_main_navigation_view_travel" />
+
+    <item
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_search"
+        android:menuCategory="system"
+        android:title="@string/title_menu_activity_main_navigation_view_search"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_animals"
+        android:icon="@drawable/ic_animals"
+        android:menuCategory="system"
+        android:title="@string/title_menu_activity_main_navigation_view_animals" />
+
+    <item
+        android:id="@+id/item_menu_activity_main_bottom_navigation_view_nature"
+        android:icon="@drawable/ic_nature"
+        android:menuCategory="system"
+        android:title="@string/title_menu_activity_main_navigation_view_nature" />
+</menu>
