@@ -13,7 +13,7 @@ This project demonstrate that
 - AndroidX
 
 # Demo:
-![](https://github.com/mnayef1995/MoveFastTask/tree/master/images/ezgif.com-video-to-gif.gif)
+![](https://github.com/mnayef1995/MoveFastTask/blob/master/images/ezgif.com-video-to-gif.gif)
 
 # Documentation / comments
 I believe that private projects doesn't need any documentation as long as the code is clean because the clean code should explain it self.
